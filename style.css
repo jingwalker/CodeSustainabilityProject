@@ -115,3 +115,23 @@
     height: 4px;
     display: inline-block;
   }
+  /* Comparison Table- content */
+  #comparison th, #comparison td {
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 15px
+    ;
+  }
+/* comparison table- layout*/
+  #comparison { 
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+  }
+
+  #comparison td {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+  }

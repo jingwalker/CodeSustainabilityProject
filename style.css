@@ -1,0 +1,117 @@
+/* Navbar container */
+.navbar {
+    background-color: #8AA78C;
+    overflow: hidden;
+    font-family: arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 10px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:#074f0a;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px white;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f3ecdc;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  body{
+    background-color: white;
+  }
+  h1{
+    color: #074f0a;
+    font-family: arial;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+  } 
+  h3{
+    color:#074f0a;
+    font-family: arial;
+    font-size: 20px;
+    text-align:left;
+    letter-spacing: 1px;;
+  }
+  p{
+    color:black;
+    font-family: arial;
+    font-size: 16px;
+    text-align: left;
+  }
+  ol{
+    color:black;    
+    font-family: arial;
+    font-size: 16px;
+    text-align: left;
+  }
+  button{
+    color:#074f0a;
+    background-color:#ffffff;
+    font-family: arial;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #074f0a;
+    margin: auto;
+    cursor: pointer;
+    display: block;
+  }
+  .space{
+    width: auto;
+    height: 4px;
+    display: inline-block;
+  }

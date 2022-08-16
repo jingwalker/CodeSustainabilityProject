@@ -140,14 +140,30 @@
     visibility: hidden;
   }
 
+  #comparison #Bamboo .bambooButton{
+    visibility: visible;
+  }
+
   #comparison #Hemp {
     visibility: hidden;
+  }
+
+  #comparison #Hemp .hempButton{
+    visibility: visible;
   }
 
   #comparison #Cork {
     visibility: hidden;
   }
 
+  #comparison #Cork .corkButton{
+    visibility: visible;
+  }
+
   #comparison #Cotton {
     visibility: hidden;
+  }
+
+  #comparison #Cotton .cottonButton{
+    visibility: visible;
   }

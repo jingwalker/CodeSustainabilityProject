@@ -137,17 +137,17 @@
   }
 
   #comparison #Bamboo {
-    visibility: visible;
+    visibility: hidden;
   }
 
   #comparison #Hemp {
-    visibility: visible;
+    visibility: hidden;
   }
 
   #comparison #Cork {
-    visibility: visible;
+    visibility: hidden;
   }
 
   #comparison #Cotton {
-    visibility: visible;
+    visibility: hidden;
   }

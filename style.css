@@ -123,7 +123,7 @@
     ;
   }
 /* comparison table- layout*/
-  #comparison { 
+  #comparison{ 
     display: flex;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -131,7 +131,39 @@
     font-weight: lighter;
   }
 
-  #comparison td {
+  #comparison td{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
+  }
+
+  #comparison #Bamboo {
+    visibility: hidden;
+  }
+
+  #comparison #Bamboo .bambooButton{
+    visibility: visible;
+  }
+
+  #comparison #Hemp {
+    visibility: hidden;
+  }
+
+  #comparison #Hemp .hempButton{
+    visibility: visible;
+  }
+
+  #comparison #Cork {
+    visibility: hidden;
+  }
+
+  #comparison #Cork .corkButton{
+    visibility: visible;
+  }
+
+  #comparison #Cotton {
+    visibility: hidden;
+  }
+
+  #comparison #Cotton .cottonButton{
+    visibility: visible;
   }

@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="./style.css">
     </head>
 <body>
+<script src="compare style.js" async></script>
 <div class="navbar">
  <a href="index.html"> Home </a>
   <a href="#newmodel">New Model</a>
@@ -27,45 +28,67 @@
           </div>
           <div>
             <table id="comparison">
-                <th> Material </th>
-                <th> Does it Regrow without Replanting? </th>
-                <th> Does it Require Fertiliser? </th>
-                <th> Is it Water Intensive? </th>
-                <th> Does it Improve or Degrade Soil Quality? </th>
-                <th> Does it Grow Quickly? </th>
-        
-                <tr>
-                  <td> Bamboo </td>
-                  <td> Yes </td>
-                  <td> No </td>
-                  <td> No </td>
-                  <td> Improve </td>
-                  <td> Yes </td>
-                </tr>
-                <tr>
-                    <td> Hemp </td>
-                  <td> Unsure </td>
-                  <td> Yes- A Little </td>
-                  <td> Yes </td>
-                  <td> Improve </td>
+              <th> Material </th>
+              <th> Does it Regrow without Replanting? </th> 
+              <th> Does it Require Fertiliser? </th>
+              <th> Is it Water Intensive? </th> 
+              <th> Does it Improve or Degrade Soil Quality? </th>
+              <th> Does it Grow Quickly? </th>
+      
+                <tr id = "Bamboo">
+                  <td> <div class = "bambooButton">
+                    <button onclick= "reveal(Bamboo)" class="Button"> Bamboo </button>
+                  </div></td> 
+                  <td> Yes </td> 
+                  <td> No </td> 
+                  <td> No </td> 
+                  <td> Improve </td> 
                   <td> Yes </td>
                 </tr>
-                <tr>
-                    <td> Cork </td>
-                    <td> Yes </td>
-                    <td> No </td>
-                    <td> No </td>
-                    <td> Improve </td>
-                    <td> No </td>
-                  </tr>
-                  <tr>
-                    <td> Cotton </td>
-                    <td> No </td>
-                    <td> Yes- Lots </td>
-                    <td> Yes </td>
-                    <td> Degrade </td>
-                    <td> No </td>
-                  </tr>
+                <tr id = "Hemp">
+                  <td> <div class = "hempButton"> 
+                    <button onclick="reveal(Hemp)" class="Button"> Hemp </button>
+                  </div> </td> 
+                  <td> Unsure </td> 
+                  <td> Yes- A Little </td> 
+                  <td> Yes </td> 
+                  <td> Improve </td> 
+                  <td> Yes </td> 
+                </tr>
+                <tr id = "Cork">
+                <td> <div class = "corkButton"> 
+                  <button onclick="reveal(Cork)" class="Button"> Cork </button>
+                </div> </td> 
+                  <td> Yes </td> 
+                  <td> No </td> 
+                  <td> No </td> 
+                  <td> Improve </td>
+                  <td> No </td> 
+                </tr>
+                <tr id = "Cotton">
+                 <td> <div class = "cottonButton"> 
+                  <button onclick="reveal(Cotton)" class="Button"> Cotton </button>
+                </div>
+         </td> 
+                 <td> No </td>
+                 <td> Yes- Lots </td> 
+                 <td> Yes </td> 
+                 <td> Degrade </td> 
+                 <td> No </td> 
+                </tr>
               </table>
            </div>
-           <div>
+          </div>
+
+
+        
+
+        
+
+        
+
+        
+         
+          
+
+          
